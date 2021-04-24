@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+header{
+   width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    color: #95e1d3;
+    margin-top: 10px;
+}
+.logo{
+    font-size: 30px;
+    color: #95e1d3;
+    font-weight: 700;
+}
+main{
+    margin-top: 110px;
+}
+.sub-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    font-weight: 700;
+}
+.line{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: auto;
+    margin-top: 42px;
+}
+.services{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+
+    display: flex;
+}
+.description{
+    text-align: center;
+    width: 945px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.photo-box {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+.photo-item{
+    width: 300px;
+}
+.photo-title {
+    text-align: center;
+}
+.photo-tex {
+    text-align: center;
+}
+footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid orangered;
+    margin-top: 25px;
+}
+.Subscribe{
+    display: flex;
+    align-items: center;
+}
+li:hover{
+    color: red;
+}
+h2:hover{
+    color: red;
+}
+h1:hover{
+    color: red;
+}
+p:hover{
+    color: red;
+}
+.services:hover{
+    color: red;
+}
+h3:hover{
+    color: red;
+}
+.text:hover{
+    color: red;
+}
